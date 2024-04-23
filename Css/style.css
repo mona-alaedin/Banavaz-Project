@@ -40,7 +40,7 @@ html {
 
 body {
   background: rgb(16, 169, 218);
-  background: linear-gradient(90deg, rgba(16, 169, 218, 1) 31%, rgba(0, 212, 255, 1) 100%);
+  /* background: linear-gradient(90deg, rgba(16, 169, 218, 1) 31%, rgba(0, 212, 255, 1) 100%); */
   position: relative;
   font-family: iran-sans;
   height: 100vh;
@@ -185,7 +185,7 @@ body {
 .iphone-bonsay {
   position: absolute;
   top: -20px;
-  left: 150px;
+  left: 140px;
   height: 200px;
 }
 
@@ -233,7 +233,7 @@ body {
 }
 
 .title-manage {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-weight: bold;
   color: var(--white);
   margin-bottom: 20px;
@@ -242,8 +242,7 @@ body {
 
 .description-manage {
   color: var(--white);
-  font-size: 2rem;
-  line-height: 32px;
+  font-size: 1.5rem;
   font-weight: 100;
   text-align: center;
   order: 2;
@@ -251,7 +250,7 @@ body {
 
 .header-intro__manage img {
   order: 0;
-  width: 300px;
+  width: 250px;
   margin-bottom: 30px;
 }
 
