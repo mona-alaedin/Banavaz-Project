@@ -515,7 +515,7 @@ body {
   border-radius: 6px;
 }
 
-/*! responsive manage home  */
+/*! manage home  responsive */
 
 @media screen and (min-width: 768px) {
   .manage-home {
@@ -530,5 +530,74 @@ body {
   .manage-home__description {
     width: 50%;
     padding: 0;
+  }
+}
+
+/*! Options Style */
+
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4%;
+}
+
+.options__title {
+  font-size: 3rem;
+  color: #053e56;
+  margin-bottom: 1.5rem;
+}
+
+.options__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.option {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.option__text {
+  color: var(--text-color);
+  margin: 12px 0 20px 0;
+}
+
+/*! options Responsive */
+
+@media screen and (min-width: 425px) {
+  .options__container {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .option {
+    width: 170px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .option {
+    width: 150px;
+    height: 200px;
+  }
+
+  .options__title {
+    width: 100%;
+    text-align: start;
+    margin-bottom: 4rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .option {
+    width: 210px;
+    height: 200px;
   }
 }
