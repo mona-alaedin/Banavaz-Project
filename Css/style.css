@@ -540,13 +540,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 4%;
+  padding: 30px 4% 90px 4%;
 }
 
 .options__title {
   font-size: 3rem;
   color: #053e56;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .options__container {
@@ -577,6 +577,7 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
   }
+
   .option {
     width: 170px;
   }
@@ -593,11 +594,39 @@ body {
     text-align: start;
     margin-bottom: 4rem;
   }
+
+  .option__text {
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .option {
     width: 210px;
     height: 200px;
+  }
+}
+
+/*! Friends style */
+
+.friends {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 4%;
+}
+
+.friends__img {
+  width: 250px;
+}
+
+/*! friends responsive*/
+
+@media screen and (min-width: 768px) {
+  .friends {
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
